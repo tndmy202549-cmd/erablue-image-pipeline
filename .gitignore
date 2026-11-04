@@ -1,0 +1,12 @@
+# Bảo vệ khóa bí mật khỏi GitHub Secret Scanning / Push Protection
+# (pipeline.py đã tích hợp sẵn cơ chế tự động khôi phục khi chạy trên máy mới)
+.env
+client_secret.json
+
+# Thư mục tạm & môi trường ảo
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+output_images/
+.DS_Store
